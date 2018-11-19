@@ -1,0 +1,127 @@
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url('../login/fonts/ubuntu/Ubuntu-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url('../login/fonts/ubuntu/Ubuntu-Bold.ttf'); 
+}
+body, html {
+  height: 100%;
+  font-family: Ubuntu-Regular, sans-serif;
+}
+.top_menu{
+  background-color: #DF864A;
+}
+
+.img-responsive {
+  margin: 0 auto;
+}
+.home-part{
+	background:#000; 
+	padding: 8px;
+}
+.breadcrumb {
+  background-color:#000 !important;
+  padding: 0px !important;
+  margin-bottom: 0px !important;
+  color: #ffffff;
+}
+.barcum>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+.breadcrumb li a{
+  color: #fff;
+  text-decoration: none
+}
+.logout {
+    text-align: right;
+    margin-right: 15px;
+}
+.logout a{
+  color: #fff;
+  text-decoration: none
+}
+.comp{
+  border-bottom: 1px solid #ededed;
+  overflow: hidden;
+  padding: 8px;
+}
+.heading-title{
+  margin-left: -15px !important;
+}
+.heading-title strong{
+  font-size: 20px;
+  padding: 10px;
+}
+.heading-title i{
+  font-size: 30px;
+}
+.comImg{text-align: right}
+
+
+.footer
+{
+	background:#f3f2f2;
+	padding:8px;
+}
+.content{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+fieldset.scheduler-border {
+    border: 1px solid #ededed !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #ededed;
+            box-shadow:  0px 0px 0px 0px #ededed;
+    border-radius: 5px;
+}
+
+    legend.scheduler-border {
+        font-size: 1.2em !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto;
+        padding:0 10px;
+        border-bottom:none;
+    }
+
+.btn-outline-info {
+    border-color: #3BAFDA;
+    background-color: transparent;
+    color: #3BAFDA;
+}
+.btn-outline-info i{font-size: 15px;}
+.btn-outline-info:hover{background-color: #3BAFDA; color: #fff;}
+.btn-outline-danger i{font-size: 15px;}
+.btn-outline-danger:hover{background-color: #DA4453; color: #fff;}
+  .btn-outline-danger {
+    border-color: #DA4453;
+    background-color: transparent;
+    color: #DA4453;
+}
+
+.paging-nav {
+  text-align: right;
+  padding-top: 2px;
+}
+
+.paging-nav a {
+  margin: auto 1px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1px 7px;
+  background: #DF864A;
+  color: white;
+  border-radius: 3px;
+}
+
+.paging-nav .selected-page {
+  background: #EA341F;
+  font-weight: bold;
+}
+.paging-nav a:hover{background: #EA341F;}
